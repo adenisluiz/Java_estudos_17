@@ -20,6 +20,14 @@ public static void main(String[] args) {
 	    System.out.println("keyset"+mapaNomes.keySet());
 	    System.out.println("---------------");//tudo		   
 	    System.out.println("EntrySet"+mapaNomes.entrySet());
+	    
+	    
+	    //For
+	    for (Integer key : mapaNomes.keySet()) {
+	        System.out.println(mapaNomes.get(key));
+	    }
+	    	
+	    
 
 
 }
