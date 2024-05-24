@@ -10,10 +10,9 @@ public static void main(String[] args) {
 	    mapaNomes.put(2, "Maria do Carmo");
 	    mapaNomes.put(4, "Claudinei Silva");
 
-
 	    //resgatando o nome da posição 4
 	    System.out.println("Pela chave"+mapaNomes.get(4));
-	    System.out.println("---------------");
+	    System.out.println("---------------___");
 	    System.out.println(mapaNomes);
 	    System.out.println("---------------");//coluna direita		   
 	    System.out.println("Values/nomes"+mapaNomes.values());
